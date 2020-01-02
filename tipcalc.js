@@ -1,4 +1,4 @@
-function calculate (){
+function calculateit (){
     let amount = $('#amount').val();
     let percentage = $('#percentage').val();
     let tip = amount * (percentage /100);
@@ -9,4 +9,4 @@ function calculate (){
 
     return false;
 }
-$('#calculator').submit(calculate);
+$('#calculator').submit(calculateit);
