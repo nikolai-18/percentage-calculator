@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="percentage calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tipcalc.css">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <h1> <span id="perc">Tip</span> calculator</h1>
+    <form id="calculator">
+        <p>Bill Amount: <input id="amount" /></p>
+        <p>Percentage Tip: <input id="percentage"/></p>
+        <p>Tip Amount:<input id="tip" disabled="disabled"/></p>
+        <p>Total: <input id="total" disabled="disabled"/></p>
+        <p><input id="addup" type="submit" value="Calculate"/></p>
+    </form>
+    
+</body>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="tipcalc.js"></script>
+</footer>
+</html>
